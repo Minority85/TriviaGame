@@ -1,0 +1,45 @@
+html {
+    background-image: url(../images/bg3.jpg);
+}
+
+body {
+    background: none;
+}
+
+#first {
+    animation-delay: 2s;
+    margin-left: 40%;
+    margin-top: 200px;
+    font-family: GoT;
+    /* font-weight: bold; */
+    font-size: 25px;
+}
+
+#second {
+    animation-delay: 4s;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+
+#third {
+    animation-delay: 5s;
+    margin-left: 45%;
+    margin-top: 20px;
+    font-family: GoT;
+    font-size: 25px;
+}
+
+.fadeInAnimated {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+  }
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+  }
+
+  @font-face {
+    font-family: GoT;
+    src: url(../font/Game\ of\ Thrones.ttf);
+  }
