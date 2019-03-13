@@ -59,6 +59,10 @@ body {
     1px 1px 0 black;
 }
 
+.card {
+    border: none;
+}
+
 .right:hover,
 .wrong:hover {
     border: 1px solid black;
@@ -66,7 +70,7 @@ body {
 
 .right,
 .wrong {
-    width: 200px;
+    width: 400px;
     padding: 5px;
     margin: auto;
     font-size: 20px;

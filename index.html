@@ -16,7 +16,9 @@
 
 <body>
     <!-- <audio id="sound1" src="assets/sound/got_intro.mp3" preload="auto" allow="autoplay"></audio> -->
+
     <!-- COMMENT OUT TO TEST REST OF PAGE -->
+
     <div id="whole">
         <div id="first" class="fadeInAnimated">
             <p>Welcome To The...</p>
@@ -29,12 +31,19 @@
         </div>
     </div>
 
+    <!-- END -->
+
     <div id="bodybox" class="fadeInAnimated">
         <h1>
             <p id="header">Game Of Thrones Trivia</p>
         </h1>
+
         <button type="button" class="btn btn-secondary" onClick="this.style.visibility= 'hidden';">Start</button>
-        <div id="countdown" style="display: none; font-size: 15px;"></div>
+
+        <div id="countdown"
+            style="display: none; font-size: 20px; padding-bottom: 10px; font-family: Arial, Helvetica, sans-serif;">
+        </div>
+
         <div id="q1" style="display: none">
             <div id="q1q">
                 <h4>
@@ -47,11 +56,269 @@
             </div>
             <div id="q1r" style="display: none">
                 <p>CORRECT</p>
-                <img src="assets/images/q1.png">
-            </div>
-            <div id="q1w" style="display: none">
+                <div class="card" style="width: 500px; margin: auto;">
+                    <img src="assets/images/q1.png" class="card-img-top" alt="...">
+                </div>
 
             </div>
+
+            <div id="q1w" style="display: none">
+                <p id="q1t">WRONG</p>
+                <p>The Correct answer was: 5 children.</p>
+                <div class="card" style="width: 400px; margin: auto;">
+                    <img src="assets/images/q1.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <div id="q2" style="display: none">
+            <div id="q2q">
+                <h4>
+                    <p>Who is the first character in the series to be called King in the North</p>
+                </h4>
+                <div class="q2 wrong">john Snow</div>
+                <div class="q2 wrong">Ned Stark</div>
+                <div class="q2 right">Robb Stark</div>
+                <div class="q2 wrong">Theon Greyjoy</div>
+            </div>
+            <div id="q2r" style="display: none">
+                <p>CORRECT</p>
+                <div class="card" style="width: 500px; margin: auto;">
+                    <img src="assets/images/q2.jpg" class="card-img-top" alt="...">
+                </div>
+
+            </div>
+
+            <div id="q2w" style="display: none">
+                <p id="q2t">WRONG</p>
+                <p>The Correct answer was: Robb Stark.</p>
+                <div class="card" style="width: 400px; margin: auto;">
+                    <img src="assets/images/q2.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <div id="q3" style="display: none">
+            <div id="q3q">
+                <h4>
+                    <p>How does Daenerys hatch her dragon eggs</p>
+                </h4>
+                <div class="q3 right">in a funeral pyre</div>
+                <div class="q3 wrong">with the help of a sorceress</div>
+                <div class="q3 wrong">with a lightning strike</div>
+                <div class="q3 wrong">using wildfire</div>
+            </div>
+            <div id="q3r" style="display: none">
+                <p>CORRECT</p>
+                <div class="card" style="width: 500px; margin: auto;">
+                    <img src="assets/images/q3.jpg" class="card-img-top" alt="...">
+                </div>
+
+            </div>
+
+            <div id="q3w" style="display: none">
+                <p id="q3t">WRONG</p>
+                <p>The Correct answer was: in a funeral pyre.</p>
+                <div class="card" style="width: 400px; margin: auto;">
+                    <img src="assets/images/q3.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <div id="q4" style="display: none">
+            <div id="q4q">
+                <h4>
+                    <p>What is the name of Arya's direwolf</p>
+                </h4>
+                <div class="q4 right">nymeria</div>
+                <div class="q4 wrong">lady</div>
+                <div class="q4 wrong">grey wind</div>
+                <div class="q4 wrong">ghost</div>
+            </div>
+            <div id="q4r" style="display: none">
+                <p>CORRECT</p>
+                <div class="card" style="width: 500px; margin: auto;">
+                    <img src="assets/images/q4.gif" class="card-img-top" alt="...">
+                </div>
+
+            </div>
+
+            <div id="q4w" style="display: none">
+                <p id="q4t">WRONG</p>
+                <p>The Correct answer was: nymeria.</p>
+                <div class="card" style="width: 400px; margin: auto;">
+                    <img src="assets/images/q4.gif" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <div id="q5" style="display: none">
+            <div id="q5q">
+                <h4>
+                    <p>Which house has a rose as its sigil</p>
+                </h4>
+                <div class="q5 wrong">tully</div>
+                <div class="q5 wrong">lannister</div>
+                <div class="q5 right">tyrell</div>
+                <div class="q5 wrong">Greyjoy</div>
+            </div>
+            <div id="q5r" style="display: none">
+                <p>CORRECT</p>
+                <div class="card" style="width: 500px; margin: auto;">
+                    <img src="assets/images/q5.jpg" class="card-img-top" alt="...">
+                </div>
+
+            </div>
+
+            <div id="q5w" style="display: none">
+                <p id="q5t">WRONG</p>
+                <p>The Correct answer was: tyrell.</p>
+                <div class="card" style="width: 400px; margin: auto;">
+                    <img src="assets/images/q5.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <div id="q6" style="display: none">
+            <div id="q6q">
+                <h4>
+                    <p>Who is executed via molten gold</p>
+                </h4>
+                <div class="q6 wrong">tywin lannister</div>
+                <div class="q6 wrong">robert baratheon</div>
+                <div class="q6 wrong">khal drogo</div>
+                <div class="q6 right">viserys targaryen</div>
+            </div>
+            <div id="q6r" style="display: none">
+                <p>CORRECT</p>
+                <div class="card" style="width: 500px; margin: auto;">
+                    <img src="assets/images/q6.gif" class="card-img-top" alt="...">
+                </div>
+
+            </div>
+
+            <div id="q6w" style="display: none">
+                <p id="q6t">WRONG</p>
+                <p>The Correct answer was: viserys targaryen.</p>
+                <div class="card" style="width: 400px; margin: auto;">
+                    <img src="assets/images/q6.gif" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <div id="q7" style="display: none">
+            <div id="q7q">
+                <h4>
+                    <p>Who is Sansa Starks first fiance</p>
+                </h4>
+                <div class="q7 wrong">tyrion lannister</div>
+                <div class="q7 right">joffrey baratheon</div>
+                <div class="q7 wrong">loras tyrell</div>
+                <div class="q7 wrong">tommen baratheon</div>
+            </div>
+            <div id="q7r" style="display: none">
+                <p>CORRECT</p>
+                <div class="card" style="width: 500px; margin: auto;">
+                    <img src="assets/images/q7.jpg" class="card-img-top" alt="...">
+                </div>
+
+            </div>
+
+            <div id="q7w" style="display: none">
+                <p id="q7t">WRONG</p>
+                <p>The Correct answer was: joffrey baratheon.</p>
+                <div class="card" style="width: 400px; margin: auto;">
+                    <img src="assets/images/q7.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <div id="q8" style="display: none">
+            <div id="q8q">
+                <h4>
+                    <p>What is Jon Snows real name</p>
+                </h4>
+                <div class="q8 wrong">jon</div>
+                <div class="q8 wrong">aerys</div>
+                <div class="q8 right">aegon</div>
+                <div class="q8 wrong">rhaegar</div>
+            </div>
+            <div id="q8r" style="display: none">
+                <p>CORRECT</p>
+                <div class="card" style="width: 500px; margin: auto;">
+                    <img src="assets/images/q8.gif" class="card-img-top" alt="...">
+                </div>
+
+            </div>
+
+            <div id="q8w" style="display: none">
+                <p id="q8t">WRONG</p>
+                <p>The Correct answer was: Aegon Targaryen.</p>
+                <div class="card" style="width: 400px; margin: auto;">
+                    <img src="assets/images/q8.gif" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <div id="q9" style="display: none">
+            <div id="q9q">
+                <h4>
+                    <p>Which of these characters has Brienne of Tarth not defended</p>
+                </h4>
+                <div class="q9 wrong">catelyn stark</div>
+                <div class="q9 wrong">renly baratheon</div>
+                <div class="q9 wrong">sansa stark</div>
+                <div class="q9 right">tywin lannister</div>
+            </div>
+            <div id="q9r" style="display: none">
+                <p>CORRECT</p>
+                <div class="card" style="width: 500px; margin: auto;">
+                    <img src="assets/images/q9.gif" class="card-img-top" alt="...">
+                </div>
+
+            </div>
+
+            <div id="q9w" style="display: none">
+                <p id="q9t">WRONG</p>
+                <p>The Correct answer was: tywin lannister.</p>
+                <div class="card" style="width: 400px; margin: auto;">
+                    <img src="assets/images/q9.gif" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <div id="q10" style="display: none">
+            <div id="q10q">
+                <h4>
+                    <p>What language do Red Priests and Priestesses use</p>
+                </h4>
+                <div class="q10 wrong">old tongue</div>
+                <div class="q10 wrong">ghiscari</div>
+                <div class="q10 right">high valyrian</div>
+                <div class="q10 wrong">asshaii</div>
+            </div>
+            <div id="q10r" style="display: none">
+                <p>CORRECT</p>
+                <div class="card" style="width: 500px; margin: auto;">
+                    <img src="assets/images/q10.jpg" class="card-img-top" alt="...">
+                </div>
+
+            </div>
+
+            <div id="q10w" style="display: none">
+                <p id="q10t">WRONG</p>
+                <p>The Correct answer was: high valyrian.</p>
+                <div class="card" style="width: 400px; margin: auto;">
+                    <img src="assets/images/q10.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <div id="total" style="display: none">
+            <p>your score</p>
+            <p id="right" style="font-family: Arial, Helvetica, sans-serif;"></p>
+            <p id="wrong" style="font-family: Arial, Helvetica, sans-serif;"></p>
+            <p id="none" style="font-family: Arial, Helvetica, sans-serif;"></p>
         </div>
 
     </div>
