@@ -1,5 +1,8 @@
 html {
-    background-image: url(../images/bg3.jpg);
+    background: url(../images/bg3.jpg) no-repeat center center fixed;;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 body {
@@ -7,31 +10,71 @@ body {
 }
 
 #first {
-    animation-delay: 2s;
+    animation-delay: 1s;
     margin-left: 40%;
-    margin-top: 200px;
+    margin-top: 150px;
     font-family: GoT;
     /* font-weight: bold; */
     font-size: 25px;
 }
 
 #second {
-    animation-delay: 4s;
+    animation-delay: 3s;
     margin-left: 25%;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 #third {
-    animation-delay: 5s;
+    animation-delay: 4s;
     margin-left: 45%;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-family: GoT;
     font-size: 25px;
 }
 
+/* IF delay is set to 2 change it back to 8 for final */
+#bodybox{
+    animation-delay: 8s;
+    background-image: url(../images/box.jpg);
+    background-size: contain;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    max-width:100%;
+    max-height:100%;
+    width: 900px;
+    height: 500px;
+    margin-left: 20%;
+    margin-top: 150px;
+    font-family: GoT;
+    text-align: center;
+}
+
+#header {
+    margin-top: 10px;
+    color: silver;
+    text-shadow: 
+    -1px -1px 0 black,
+	1px -1px 0 black,
+	-1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.right:hover,
+.wrong:hover {
+    border: 1px solid black;
+}
+
+.right,
+.wrong {
+    width: 200px;
+    padding: 5px;
+    margin: auto;
+    font-size: 20px;
+}
+
 .fadeInAnimated {
     opacity: 0;
-    animation: fadeIn 2s forwards;
+    animation: fadeIn 3s forwards;
   }
 
 @keyframes fadeIn {
