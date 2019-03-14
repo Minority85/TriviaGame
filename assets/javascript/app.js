@@ -53,6 +53,8 @@ $(".q1").on("click", function () {
         $("#q1q").hide();
         $("#q1r").show();
         setTimeout(function () {
+            $("#q1q").show();
+            $("#q1r").hide();
             $('#q1').hide();
             $('#q2').show();
             timeLeft = 60;
@@ -70,6 +72,8 @@ $(".q1").on("click", function () {
         setTimeout(function () {
             timeLeft = 60;
             start();
+            $("#q1q").show();
+            $('#q1w').hide();
             $('#q1').hide();
             $('#q2').show();
             q1 = false;
@@ -88,6 +92,8 @@ $(".q2").on("click", function () {
         $("#q2q").hide();
         $("#q2r").show();
         setTimeout(function () {
+            $("#q2q").show();
+            $("#q2r").hide();
             $('#q2').hide();
             $('#q3').show();
             timeLeft = 60;
@@ -105,6 +111,8 @@ $(".q2").on("click", function () {
         setTimeout(function () {
             timeLeft = 60;
             start();
+            $("#q2q").show();
+            $('#q2w').hide();
             $('#q2').hide();
             $('#q3').show();
             q2 = false;
@@ -122,6 +130,8 @@ $(".q3").on("click", function () {
         $("#q3q").hide();
         $("#q3r").show();
         setTimeout(function () {
+            $("#q3q").show();
+            $("#q3r").hide();
             $('#q3').hide();
             $('#q4').show();
             timeLeft = 60;
@@ -139,6 +149,8 @@ $(".q3").on("click", function () {
         setTimeout(function () {
             timeLeft = 60;
             start();
+            $("#q3q").show();
+            $('#q3w').hide();
             $('#q3').hide();
             $('#q4').show();
             q3 = false;
@@ -156,6 +168,8 @@ $(".q4").on("click", function () {
         $("#q4q").hide();
         $("#q4r").show();
         setTimeout(function () {
+            $("#q4q").show();
+            $("#q4r").hide();
             $('#q4').hide();
             $('#q5').show();
             timeLeft = 60;
@@ -173,6 +187,8 @@ $(".q4").on("click", function () {
         setTimeout(function () {
             timeLeft = 60;
             start();
+            $("#q4q").show();
+            $('#q4w').hide();
             $('#q4').hide();
             $('#q5').show();
             q4 = false;
@@ -190,6 +206,8 @@ $(".q5").on("click", function () {
         $("#q5q").hide();
         $("#q5r").show();
         setTimeout(function () {
+            $("#q5q").show();
+            $("#q5r").hide();
             $('#q5').hide();
             $('#q6').show();
             timeLeft = 60;
@@ -207,6 +225,8 @@ $(".q5").on("click", function () {
         setTimeout(function () {
             timeLeft = 60;
             start();
+            $("#q5q").show();
+            $('#q5w').hide();
             $('#q5').hide();
             $('#q6').show();
             q5 = false;
@@ -224,6 +244,8 @@ $(".q6").on("click", function () {
         $("#q6q").hide();
         $("#q6r").show();
         setTimeout(function () {
+            $("#q6q").show();
+            $("#q6r").hide();
             $('#q6').hide();
             $('#q7').show();
             timeLeft = 60;
@@ -241,6 +263,8 @@ $(".q6").on("click", function () {
         setTimeout(function () {
             timeLeft = 60;
             start();
+            $("#q6q").show();
+            $('#q6w').hide();
             $('#q6').hide();
             $('#q7').show();
             q6 = false;
@@ -258,6 +282,8 @@ $(".q7").on("click", function () {
         $("#q7q").hide();
         $("#q7r").show();
         setTimeout(function () {
+            $("#q7q").show();
+            $("#q7r").hide();
             $('#q7').hide();
             $('#q8').show();
             timeLeft = 60;
@@ -275,6 +301,8 @@ $(".q7").on("click", function () {
         setTimeout(function () {
             timeLeft = 60;
             start();
+            $("#q7q").show();
+            $('#q7w').hide();
             $('#q7').hide();
             $('#q8').show();
             q7 = false;
@@ -292,6 +320,8 @@ $(".q8").on("click", function () {
         $("#q8q").hide();
         $("#q8r").show();
         setTimeout(function () {
+            $("#q8q").show();
+            $("#q8r").hide();
             $('#q8').hide();
             $('#q9').show();
             timeLeft = 60;
@@ -309,6 +339,8 @@ $(".q8").on("click", function () {
         setTimeout(function () {
             timeLeft = 60;
             start();
+            $("#q8q").show();
+            $('#q8w').hide();
             $('#q8').hide();
             $('#q9').show();
             q8 = false;
@@ -326,6 +358,8 @@ $(".q9").on("click", function () {
         $("#q9q").hide();
         $("#q9r").show();
         setTimeout(function () {
+            $("#q9q").show();
+            $("#q9r").hide();
             $('#q9').hide();
             $('#q10').show();
             timeLeft = 60;
@@ -342,6 +376,8 @@ $(".q9").on("click", function () {
         setTimeout(function () {
             timeLeft = 60;
             start();
+            $("#q9q").show();
+            $('#q9w').hide();
             $('#q9').hide();
             $('#q10').show();
             q9 = false;
@@ -359,6 +395,8 @@ $(".q10").on("click", function () {
         $("#q10q").hide();
         $("#q10r").show();
         setTimeout(function () {
+            $("#q10q").show();
+            $("#q10r").hide();
             $('#q10').hide();
             $('#total').show();
             timeLeft = 60;
@@ -374,6 +412,8 @@ $(".q10").on("click", function () {
         $('#q10w').show();
         setTimeout(function () {
             timeLeft = 60;
+            $("#q10q").show();
+            $('#q10w').hide();
             $('#q10').hide();
             $('#total').show();
             q10 = false;
@@ -397,7 +437,7 @@ function timeout() {
             q2 = true;
         }, 8000);
     }
-    else if (q2){
+    else if (q2) {
         $("#q2q").hide();
         $('#q2w').show();
         $("#q2t").text("OUT OF TIME");
